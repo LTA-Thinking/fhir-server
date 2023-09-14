@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Microsoft.Health.Fhir.SqlDatabase.R4": {
+        "commandName": "Project",
+        "launchBrowser": false,
+        "environmentVariables": {
+            "SqlServer:ConnectionString": "server=(local);Initial Catalog=Hackathon_2023_R4;Integrated Security=true;TrustServerCertificate=true",
+            "ASPNETCORE_ENVIRONMENT": "development"
+        },
+        "applicationUrl": "https://localhost:62390;http://localhost:62391"
+    }
+  }
+}

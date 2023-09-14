@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Ensure.That" />
+    <PackageReference Include="Microsoft.Health.Abstractions" />
+    <PackageReference Include="Microsoft.Health.SqlServer" />
+    <PackageReference Include="Microsoft.Health.SqlServer.Api" />
+    <PackageReference Include="Microsoft.Health.Extensions.BuildTimeCodeGenerator" />
+    <PackageReference Include="Microsoft.Health.Tools.Sql.Tasks" />
+    <PackageReference Include="Microsoft.IO.RecyclableMemoryStream" />
+    <PackageReference Include="Microsoft.SqlServer.SqlManagementObjects" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Health.Fhir.Common\Microsoft.Health.Fhir.Common.csproj" />
+    <ProjectReference Include="..\Microsoft.Health.Fhir.Pipes\Microsoft.Health.Fhir.Pipes.csproj" />
+  </ItemGroup>
+</Project>

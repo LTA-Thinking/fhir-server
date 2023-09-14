@@ -1,0 +1,5 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Health.Fhir.Common\Microsoft.Health.Fhir.Common.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Health.Fhir.SqlDatabaseModule\Microsoft.Health.Fhir.SqlDatabaseModule.csproj" />
+    <ProjectReference Include="..\Microsoft.Health.Fhir.Version.R4\Microsoft.Health.Fhir.Version.R4.csproj" />
+  </ItemGroup>
+</Project>

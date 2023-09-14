@@ -1,0 +1,81 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8AD2A324-DAB5-4380-94A5-31F7D817C384}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{81AD9F60-F73D-486A-A7C0-3F45602338CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.CRUD", "src\Microsoft.Health.Fhir.CRUD\Microsoft.Health.Fhir.CRUD.csproj", "{92629B86-9DF8-42A3-9173-37602F1608D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Common", "src\Microsoft.Health.Fhir.Common\Microsoft.Health.Fhir.Common.csproj", "{95BEA9B0-0736-409D-B999-3CD437C81BDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Version.R4", "src\Microsoft.Health.Fhir.Version.R4\Microsoft.Health.Fhir.Version.R4.csproj", "{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.Health.Fhir.Version", "src\Microsoft.Health.Fhir.Version\Microsoft.Health.Fhir.Version.shproj", "{75EADD27-1046-453D-B77B-C4961D67FD7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Pipes", "src\Microsoft.Health.Fhir.Pipes\Microsoft.Health.Fhir.Pipes.csproj", "{7437A2E4-DA84-40C6-BE48-9B804E93A686}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.SqlDatabaseModule", "src\Microsoft.Health.Fhir.SqlDatabaseModule\Microsoft.Health.Fhir.SqlDatabaseModule.csproj", "{D0698A85-C6D4-4128-8A06-1300CF98411D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.CRUD.R4", "src\Microsoft.Health.Fhir.CRUD.R4\Microsoft.Health.Fhir.CRUD.R4.csproj", "{0E2EB555-9554-40EC-BC49-94B76A812447}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.SqlDatabase.R4", "src\Microsoft.Health.Fhir.SqlDatabase.R4\Microsoft.Health.Fhir.SqlDatabase.R4.csproj", "{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92629B86-9DF8-42A3-9173-37602F1608D8} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{75EADD27-1046-453D-B77B-C4961D67FD7B} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{D0698A85-C6D4-4128-8A06-1300CF98411D} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{0E2EB555-9554-40EC-BC49-94B76A812447} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_SortFileContentOnSave = True
+		SolutionGuid = {E370FB31-CF95-47D1-B1E1-863A77973FF8}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Microsoft.Health.Fhir.Version\Microsoft.Health.Fhir.Version.projitems*{54bdf03e-67db-44dc-b7af-f55a67149b8b}*SharedItemsImports = 5
+		src\Microsoft.Health.Fhir.Version\Microsoft.Health.Fhir.Version.projitems*{75eadd27-1046-453d-b77b-c4961d67fd7b}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

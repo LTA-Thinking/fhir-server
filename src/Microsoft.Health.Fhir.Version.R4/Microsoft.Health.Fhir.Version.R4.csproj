@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RootNamespace>Microsoft.Health.Fhir.Version</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Hl7.Fhir.Specification.R4" PrivateAssets="build;analyzers" />
+    <PackageReference Include="Hl7.Fhir.R4" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.Health.Fhir.Common\Microsoft.Health.Fhir.Common.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\Microsoft.Health.Fhir.Version\Microsoft.Health.Fhir.Version.projitems" Label="Shared" />
+</Project>

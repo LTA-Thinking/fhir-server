@@ -190,7 +190,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.R5.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Stu3.Web.UnitTests", "src\Microsoft.Health.Fhir.Stu3.Web.UnitTests\Microsoft.Health.Fhir.Stu3.Web.UnitTests.csproj", "{8F4858B3-A3CF-4130-B3B2-954CBA9FE780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsReader", "tools\EventsReader\EventsReader.csproj", "{9B3DEBE5-5C1F-419F-BBE3-BA67D1C074A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventsReader", "tools\EventsReader\EventsReader.csproj", "{9B3DEBE5-5C1F-419F-BBE3-BA67D1C074A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{81AD9F60-F73D-486A-A7C0-3F45602338CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.CRUD", "src\Microsoft.Health.Fhir.CRUD\Microsoft.Health.Fhir.CRUD.csproj", "{92629B86-9DF8-42A3-9173-37602F1608D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Common", "src\Microsoft.Health.Fhir.Common\Microsoft.Health.Fhir.Common.csproj", "{95BEA9B0-0736-409D-B999-3CD437C81BDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Version.R4", "src\Microsoft.Health.Fhir.Version.R4\Microsoft.Health.Fhir.Version.R4.csproj", "{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Microsoft.Health.Fhir.Version", "src\Microsoft.Health.Fhir.Version\Microsoft.Health.Fhir.Version.shproj", "{75EADD27-1046-453D-B77B-C4961D67FD7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.Pipes", "src\Microsoft.Health.Fhir.Pipes\Microsoft.Health.Fhir.Pipes.csproj", "{7437A2E4-DA84-40C6-BE48-9B804E93A686}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.SqlDatabaseModule", "src\Microsoft.Health.Fhir.SqlDatabaseModule\Microsoft.Health.Fhir.SqlDatabaseModule.csproj", "{D0698A85-C6D4-4128-8A06-1300CF98411D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Health.Fhir.CRUD.R4", "src\Microsoft.Health.Fhir.CRUD.R4\Microsoft.Health.Fhir.CRUD.R4.csproj", "{0E2EB555-9554-40EC-BC49-94B76A812447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Health.Fhir.SqlDatabase.R4", "src\Microsoft.Health.Fhir.SqlDatabase.R4\Microsoft.Health.Fhir.SqlDatabase.R4.csproj", "{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -446,6 +464,34 @@ Global
 		{9B3DEBE5-5C1F-419F-BBE3-BA67D1C074A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3DEBE5-5C1F-419F-BBE3-BA67D1C074A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3DEBE5-5C1F-419F-BBE3-BA67D1C074A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92629B86-9DF8-42A3-9173-37602F1608D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0698A85-C6D4-4128-8A06-1300CF98411D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2EB555-9554-40EC-BC49-94B76A812447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -534,10 +580,19 @@ Global
 		{62E8CD81-91A9-4872-BC6E-9EBBED8D50FD} = {323F60C6-936A-4C5B-AF6A-F27E93AA7B05}
 		{8F4858B3-A3CF-4130-B3B2-954CBA9FE780} = {323F60C6-936A-4C5B-AF6A-F27E93AA7B05}
 		{9B3DEBE5-5C1F-419F-BBE3-BA67D1C074A7} = {B70945F4-01A6-4351-955B-C4A2943B5E3B}
+		{81AD9F60-F73D-486A-A7C0-3F45602338CE} = {8AD2A324-DAB5-4380-94A5-31F7D817C384}
+		{92629B86-9DF8-42A3-9173-37602F1608D8} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{95BEA9B0-0736-409D-B999-3CD437C81BDE} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{54BDF03E-67DB-44DC-B7AF-F55A67149B8B} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{75EADD27-1046-453D-B77B-C4961D67FD7B} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{7437A2E4-DA84-40C6-BE48-9B804E93A686} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{D0698A85-C6D4-4128-8A06-1300CF98411D} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{0E2EB555-9554-40EC-BC49-94B76A812447} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
+		{B96B8603-D157-46EC-B8F0-0EDF49D3FB70} = {81AD9F60-F73D-486A-A7C0-3F45602338CE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_SortFileContentOnSave = True
 		SolutionGuid = {E370FB31-CF95-47D1-B1E1-863A77973FF8}
+		RESX_SortFileContentOnSave = True
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		test\Microsoft.Health.Fhir.Shared.Tests.E2E.Common\Microsoft.Health.Fhir.Shared.Tests.E2E.Common.projitems*{0478b687-7105-40f6-a2dc-81057890e944}*SharedItemsImports = 13
@@ -560,6 +615,7 @@ Global
 		src\Microsoft.Health.Fhir.Shared.Tests\Microsoft.Health.Fhir.Shared.Tests.projitems*{4efe2b45-f327-4316-9587-0e3a20bb34b3}*SharedItemsImports = 5
 		src\Microsoft.Health.Fhir.Shared.Tests\Microsoft.Health.Fhir.Shared.Tests.projitems*{514b56ad-4e95-46af-9976-2c68791e157e}*SharedItemsImports = 5
 		test\Microsoft.Health.Fhir.Shared.Tests.Integration\Microsoft.Health.Fhir.Shared.Tests.Integration.projitems*{514b56ad-4e95-46af-9976-2c68791e157e}*SharedItemsImports = 5
+		src\Microsoft.Health.Fhir.Version\Microsoft.Health.Fhir.Version.projitems*{54bdf03e-67db-44dc-b7af-f55a67149b8b}*SharedItemsImports = 5
 		src\Microsoft.Health.Fhir.Shared.Tests\Microsoft.Health.Fhir.Shared.Tests.projitems*{5e456fd7-e5a5-41f4-a0d3-7215585aeb7a}*SharedItemsImports = 5
 		test\Microsoft.Health.Fhir.Shared.Tests.Integration\Microsoft.Health.Fhir.Shared.Tests.Integration.projitems*{5e456fd7-e5a5-41f4-a0d3-7215585aeb7a}*SharedItemsImports = 5
 		src\Microsoft.Health.Fhir.Shared.Tests\Microsoft.Health.Fhir.Shared.Tests.projitems*{61443024-e60b-4e61-9851-b8d57a8886dc}*SharedItemsImports = 5
@@ -570,6 +626,7 @@ Global
 		src\Microsoft.Health.Fhir.Shared.Tests\Microsoft.Health.Fhir.Shared.Tests.projitems*{734cac7f-d979-4639-8067-a0875c0691f2}*SharedItemsImports = 5
 		src\Microsoft.Health.Fhir.Shared.Web.UnitTests\Microsoft.Health.Fhir.Shared.Web.UnitTests.projitems*{73bc4365-2bfb-41c7-b0b1-610059f967ac}*SharedItemsImports = 13
 		src\Microsoft.Health.Fhir.Shared.Client\Microsoft.Health.Fhir.Shared.Client.projitems*{743ea25c-a6f5-4b41-bc56-69d9a89386a3}*SharedItemsImports = 5
+		src\Microsoft.Health.Fhir.Version\Microsoft.Health.Fhir.Version.projitems*{75eadd27-1046-453d-b77b-c4961d67fd7b}*SharedItemsImports = 13
 		src\Microsoft.Health.Fhir.Shared.Tests\Microsoft.Health.Fhir.Shared.Tests.projitems*{7f2b9209-2c50-42ed-961b-a09cc8a26a07}*SharedItemsImports = 5
 		test\Microsoft.Health.Fhir.Shared.Tests.Crucible\Microsoft.Health.Fhir.Shared.Tests.Crucible.projitems*{7f2b9209-2c50-42ed-961b-a09cc8a26a07}*SharedItemsImports = 5
 		test\Microsoft.Health.Fhir.Shared.Tests.E2E.Common\Microsoft.Health.Fhir.Shared.Tests.E2E.Common.projitems*{7f2b9209-2c50-42ed-961b-a09cc8a26a07}*SharedItemsImports = 5
