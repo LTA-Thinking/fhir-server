@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using EnsureThat;
 using MediatR;
 using Microsoft.Health.Fhir.Common;
+using Microsoft.Health.Fhir.Common.Constants;
 
 namespace Microsoft.Health.Fhir.CRUD
 {

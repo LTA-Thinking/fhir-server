@@ -3,12 +3,12 @@
 // Licensed under the MIT License (MIT). See LICENSE in the repo root for license information.
 // -------------------------------------------------------------------------------------------------
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Models
 {
-    public enum DeleteOperation
+    public class CodePreviewModel
     {
-        SoftDelete,
-        HardDelete,
-        PurgeHistory,
+        public string Code { get; set; }
+
+        public string Div { get; set; }
     }
 }

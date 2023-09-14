@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Interfaces
 {
     public interface IResourceElement
     {

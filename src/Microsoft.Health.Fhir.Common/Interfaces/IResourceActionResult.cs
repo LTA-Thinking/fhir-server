@@ -3,14 +3,10 @@
 // Licensed under the MIT License (MIT). See LICENSE in the repo root for license information.
 // -------------------------------------------------------------------------------------------------
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Interfaces
 {
-    public static class KnownCompartmentTypes
+    public interface IResourceActionResult
     {
-        public const string Device = "Device";
-        public const string Encounter = "Encounter";
-        public const string Patient = "Patient";
-        public const string Practitioner = "Practitioner";
-        public const string RelatedPerson = "RelatedPerson";
+        string GetResultTypeName();
     }
 }

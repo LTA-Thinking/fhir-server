@@ -6,8 +6,9 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.Health.Core.Features.Context;
+using Microsoft.Health.Fhir.Common.Models;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Interfaces
 {
     public interface IFhirRequestContext : IRequestContext, ICloneable
     {

@@ -12,6 +12,8 @@ using Hl7.Fhir.Model;
 using Hl7.Fhir.Serialization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.Health.Fhir.Common.Constants;
+using Microsoft.Health.Fhir.Common.Interfaces;
 using Newtonsoft.Json;
 
 namespace Microsoft.Health.Fhir.Common

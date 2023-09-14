@@ -10,6 +10,7 @@ using EnsureThat;
 using Hl7.Fhir.ElementModel;
 using Hl7.Fhir.Model;
 using Microsoft.Health.Fhir.Common;
+using Microsoft.Health.Fhir.Common.Interfaces;
 using Microsoft.Health.SqlServer.Features.Client;
 
 namespace Microsoft.Health.Fhir.SqlDatabaseModule

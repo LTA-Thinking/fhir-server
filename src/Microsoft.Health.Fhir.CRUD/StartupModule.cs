@@ -14,6 +14,8 @@ using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
 using Microsoft.Health.Extensions.DependencyInjection;
 using Microsoft.Health.Fhir.Common;
+using Microsoft.Health.Fhir.Common.Constants;
+using Microsoft.Health.Fhir.Common.Models;
 using Microsoft.Health.Fhir.Pipes;
 
 namespace Microsoft.Health.Fhir.CRUD

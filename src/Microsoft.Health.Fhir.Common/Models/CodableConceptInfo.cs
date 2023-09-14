@@ -8,7 +8,7 @@ using System.Linq;
 using EnsureThat;
 using Hl7.Fhir.Model;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Models
 {
     public class CodableConceptInfo
     {

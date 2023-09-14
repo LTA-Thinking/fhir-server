@@ -7,7 +7,7 @@ using Hl7.Fhir.ElementModel;
 using Hl7.Fhir.Model;
 using Newtonsoft.Json;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Interfaces
 {
     public interface IFhirVersionGeneralizer
     {

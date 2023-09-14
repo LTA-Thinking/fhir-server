@@ -6,6 +6,7 @@
 using Hl7.Fhir.Serialization;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Health.Fhir.Common;
+using Microsoft.Health.Fhir.Common.Interfaces;
 
 namespace Microsoft.Health.Fhir.Version
 {

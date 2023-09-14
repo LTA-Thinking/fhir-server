@@ -9,7 +9,7 @@ using Hl7.Fhir.ElementModel;
 using Hl7.Fhir.Specification;
 using Hl7.FhirPath;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Interfaces
 {
     public interface IModelInfoProvider
     {

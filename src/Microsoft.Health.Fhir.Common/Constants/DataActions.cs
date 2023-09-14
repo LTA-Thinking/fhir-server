@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.Serialization;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Constants
 {
     [Flags]
 #pragma warning disable CA1028 // Enum Storage should be Int32

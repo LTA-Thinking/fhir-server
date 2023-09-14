@@ -6,6 +6,7 @@
 using System.Net;
 using EnsureThat;
 using Microsoft.Health.Core.Features.Context;
+using Microsoft.Health.Fhir.Common.Interfaces;
 
 namespace Microsoft.Health.Fhir.Common
 {

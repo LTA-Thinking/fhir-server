@@ -6,6 +6,7 @@
 using System;
 using Hl7.Fhir.Model;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Health.Fhir.Common.Constants;
 
 namespace Microsoft.Health.Fhir.Common
 {

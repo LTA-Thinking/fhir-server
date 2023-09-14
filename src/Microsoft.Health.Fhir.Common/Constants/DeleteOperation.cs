@@ -3,11 +3,12 @@
 // Licensed under the MIT License (MIT). See LICENSE in the repo root for license information.
 // -------------------------------------------------------------------------------------------------
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Constants
 {
-    public static class KnownContentTypes
+    public enum DeleteOperation
     {
-        public const string JsonContentType = "application/fhir+json";
-        public const string XmlContentType = "application/fhir+xml";
+        SoftDelete,
+        HardDelete,
+        PurgeHistory,
     }
 }

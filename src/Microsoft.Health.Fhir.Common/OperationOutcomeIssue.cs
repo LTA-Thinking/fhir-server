@@ -6,6 +6,7 @@
 using System;
 using System.Collections.Generic;
 using EnsureThat;
+using Microsoft.Health.Fhir.Common.Models;
 
 namespace Microsoft.Health.Fhir.Common
 {

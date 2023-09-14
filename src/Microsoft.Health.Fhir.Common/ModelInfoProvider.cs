@@ -9,6 +9,7 @@ using EnsureThat;
 using Hl7.Fhir.ElementModel;
 using Hl7.Fhir.Specification;
 using Hl7.FhirPath;
+using Microsoft.Health.Fhir.Common.Interfaces;
 
 namespace Microsoft.Health.Fhir.Common
 {

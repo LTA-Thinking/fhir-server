@@ -21,6 +21,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Primitives;
 using Microsoft.Health.Fhir.Common;
+using Microsoft.Health.Fhir.Common.Constants;
+using Microsoft.Health.Fhir.Common.Interfaces;
 
 namespace Microsoft.Health.Fhir.CRUD
 {

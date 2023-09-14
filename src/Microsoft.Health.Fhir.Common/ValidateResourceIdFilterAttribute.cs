@@ -9,6 +9,7 @@ using EnsureThat;
 using FluentValidation.Results;
 using Hl7.Fhir.Model;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Health.Fhir.Common.Constants;
 using Microsoft.Health.Fhir.Common.Exceptions;
 
 namespace Microsoft.Health.Fhir.Common

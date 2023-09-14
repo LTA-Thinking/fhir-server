@@ -5,6 +5,7 @@
 
 using System.Collections.Generic;
 using EnsureThat;
+using Microsoft.Health.Fhir.Common.Constants;
 using Newtonsoft.Json;
 
 namespace Microsoft.Health.Fhir.Common

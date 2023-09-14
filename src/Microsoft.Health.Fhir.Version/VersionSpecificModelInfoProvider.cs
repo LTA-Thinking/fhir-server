@@ -16,6 +16,7 @@ using Hl7.Fhir.Specification;
 using Hl7.FhirPath;
 using Microsoft.Health.Fhir.Common;
 using Microsoft.Health.Fhir.Common.Exceptions;
+using Microsoft.Health.Fhir.Common.Interfaces;
 using Newtonsoft.Json;
 
 namespace Microsoft.Health.Fhir.Version

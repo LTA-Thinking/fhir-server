@@ -5,6 +5,7 @@
 
 using System;
 using EnsureThat;
+using Microsoft.Health.Fhir.Common.Constants;
 
 namespace Microsoft.Health.Fhir.Common
 {

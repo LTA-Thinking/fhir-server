@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Models
 {
     public class AccessControlContext : ICloneable
     {
@@ -43,7 +43,7 @@ namespace Microsoft.Health.Fhir.Common
 
         public object Clone()
         {
-            AccessControlContext clone = new AccessControlContext()
+            var clone = new AccessControlContext()
             {
                 ApplyFineGrainedAccessControl = ApplyFineGrainedAccessControl,
                 FhirUserClaim = FhirUserClaim,

@@ -5,7 +5,7 @@
 
 using Microsoft.Net.Http.Headers;
 
-namespace Microsoft.Health.Fhir.Common
+namespace Microsoft.Health.Fhir.Common.Constants
 {
     internal static class KnownMediaTypeHeaderValues
     {

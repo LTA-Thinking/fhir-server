@@ -6,6 +6,7 @@
 using EnsureThat;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Routing;
+using Microsoft.Health.Fhir.Common.Constants;
 
 namespace Microsoft.Health.Fhir.Common
 {
